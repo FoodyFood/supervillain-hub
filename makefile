@@ -5,23 +5,42 @@ all: build-supervillain push-supervillain deploy-supervillain
 update: build-supervillain push-supervillain restart-supervillain
 
 
-# Build related
-build-supervillain:
+# Build
+build:
 	docker build -f build/dockerfile -t ghcr.io/foodyfood/supervillain:latest ./build/
 
-# Push related
-push-supervillain:
+
+# Run
+run:
+	cd ./build/; npm run dev;
+install:
+	cd ./build/; npm install;
+
+install-win:
+	bash.exe -c -i "pushd ./build/; npm install; popd"
+run-win:
+	bash.exe -c -i "pushd ./build/; npm run dev; popd"
+
+run-image:
+	docker run -it --rm -p 3000:3000 ghcr.io/foodyfood/supervillain:latest 
+
+
+# Push
+push:
 	docker push ghcr.io/foodyfood/supervillain:latest
 
-# Deploy related
-deploy-supervillain:
+
+# Deploy
+deploy:
 	-kubectl create namespace $(namespace)
 	helm install supervillain ./deploy/ -n $(namespace) --create-namespace
 
-# Restart related
-restart-supervillain:
+
+# Restart
+restart:
 	kubectl rollout restart deployment/supervillain --namespace $(namespace)
 
-# Uninstall related
-uninstall-supervillain:
+
+# Uninstall
+uninstall:
 	helm uninstall supervillain -n $(namespace)

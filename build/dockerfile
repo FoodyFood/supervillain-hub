@@ -1,21 +1,19 @@
-FROM node:14.17-alpine
+FROM node:18
 
-ENV NODE_ENV production
-
-RUN apk update; apk upgrade; apk fetch dumb-init; apk add dumb-init; rm dumb*
+# Create app directory
+WORKDIR /usr/src/app
 
 # Install app dependencies
-COPY ./package*.json ./
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+# where available ([email protected]+)
+COPY package*.json ./
 
-# RUN npm install
-RUN npm ci --only=production
+RUN npm install
+# If you are building your code for production
+# RUN npm ci --only=production
 
 # Bundle app source
-COPY ./ .
+COPY . .
 
-EXPOSE 8080
-
-CMD ["dumb-init", "node", "server.js"]
-
-# If your dumb-init failes, try the old familliar
-# CMD ["npm", "start"]
+EXPOSE 3000
+CMD [ "npm", "run", "dev" ]
