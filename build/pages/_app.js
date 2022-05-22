@@ -9,7 +9,7 @@ import Footer from '../components/Footer.js'
 import '../styles/globals.css'
 
 
-export default function Dashboard({ Component, pageProps }) {
+export default function Supervillain({ Component, pageProps }) {
   return (
     <>
       <Head>
