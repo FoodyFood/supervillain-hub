@@ -6,7 +6,7 @@ update: build-supervillain push-supervillain restart-supervillain
 
 
 # Build
-build:
+build-image:
 	docker build -f build/dockerfile -t ghcr.io/foodyfood/supervillain:latest ./build/
 
 
@@ -31,9 +31,9 @@ push:
 
 
 # Deploy
-deploy:
+deploy-chart:
 	-kubectl create namespace $(namespace)
-	helm install supervillain ./deploy/ -n $(namespace) --create-namespace
+	helm upgrade supervillain ./deploy/ -n $(namespace) --create-namespace
 
 
 # Restart
