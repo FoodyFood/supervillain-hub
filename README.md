@@ -53,9 +53,9 @@ Let the feature creep roll..
 
 ## CI/CD
 
-Builds use GitHub workflows.
-
 #### Build
+
+Builds use GitHub workflows.
 
 [![supervillain](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml/badge.svg)](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml)
 
