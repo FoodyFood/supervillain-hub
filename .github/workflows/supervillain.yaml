@@ -17,7 +17,7 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Test using docker-compose file
         run: docker-compose --file build/docker-compose.yaml up test
@@ -33,7 +33,7 @@ jobs:
       packages: write
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Build image
         run: docker build --file build/dockerfile --tag ghcr.io/foodyfood/supervillain:latest ./build/
