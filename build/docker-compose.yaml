@@ -8,4 +8,4 @@ services:
     depends_on:
       - supervillain
     build: .
-    command: /bin/sh -c "chmod +x /run-test.sh; /run-test.sh"
+    command: /bin/sh -c "apk update; apk search curl; apk add curl; chmod +x /run-test.sh; /run-test.sh"
