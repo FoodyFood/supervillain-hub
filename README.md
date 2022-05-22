@@ -2,12 +2,15 @@
 
 #### The only account a Supervillain needs!
 
+
 I wanted something fun to build in my downtime. I got the idea from watching Minions to make a hub for all us Supervillains! 
 
 _How very evilllll..._
 
-## 
+Join us: [Supervillain Hub](https://supervillain.cloud/)
 
+
+## 
 ![Homepage](./docs/img/homepage.jpg)
 
 
@@ -34,14 +37,11 @@ To become a pro tier supervillain you must help out with building the platform, 
 No of course not, feel free to use your GitHub name as your supervilain alias.
 
 
-## URL 
+## URL
+
+Feel free to check out the currently not yet ready site, plenty of work to be done clearly.
 
 [Supervillain Hub](https://supervillain.cloud/)
-
-
-## Builds
-
-[![supervillain](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml/badge.svg)](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml)
 
 
 ## Currently
@@ -51,6 +51,11 @@ Server is Express.js \
 Container is Node.js \
 Deployment is via Helm Chart \
 Infra is a Linode Kubernetes clsuter 
+
+
+## Build Status
+
+[![supervillain](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml/badge.svg)](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml)
 
 
 ## Dev Goals
