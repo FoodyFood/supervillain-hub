@@ -1,6 +1,6 @@
 # Supervillain Hub
 
-#### The only account a Supervillain Needs!
+#### The only account a Supervillain needs!
 
 I wanted something fun to build in my downtime. I got the idea from watching Minions to make a hub for all us Supervillains! 
 
@@ -25,7 +25,7 @@ You must be invited by a fellow supervillain, or use the sign up form.
 
 As part of the guild you will get access to our evil newsletter. And access to our evil media empire and World Domaination Platform as a Service 'WD-PaaS'.
 
-#### What is a 'Pro Tier' supervillain and how do I become one?
+#### What is a 'pro tier' supervillain and how do I become one?
 
 To become a pro tier supervillain you must help out with building the platform, all coders and all levels of coders are welcome.
 
@@ -39,39 +39,39 @@ No of course not, feel free to use your GitHub name as your supervilain alias.
 [Supervillain Hub](https://supervillain.cloud/)
 
 
-## Contents
+## Builds
 
-Website is React.js/HTML \
+[![supervillain](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml/badge.svg)](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml)
+
+
+## Currently
+
+Website is html \
 Server is Express.js \
 Container is Node.js \
 Deployment is via Helm Chart \
 Infra is a Linode Kubernetes clsuter 
 
 
-## Builds
-
-Builds use GitHub workflows.
-
-[![supervillain](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml/badge.svg)](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml)
-
-
 ## Dev Goals
 
 Write frontend/backend using Next.js \
-Store users data in MongoDB \
+Store user data in MongoDB \
 Use KeyCloak for user management/signup \
 Store images and uploads in S3 \
 Let the feature creep roll.. 
 
 
-## Continuous Deployment
+## CI/CD
 
-I'll try get FluxCD working for it at some point to save me restarting the pod each time a new image builds.
+Builds use GitHub workflows.
+
+Will try get FluxCD working for it at some point to save me restarting the pod manually each time a new image is built.
 
 
 ## Contribution/License
 
-Feel free to fork, clone, or downright steal the code, we are supervillains after all. Under [MIT License](./LICENSE). 
+Feel free to fork, clone, or downright steal the code, we are supervillains after all. This project uses the [MIT License](./LICENSE). 
 
 I make mistakes, so if you spot anything that I should fix for any reason like security or whatnot, point it out, I'll be grateful of the chance to improve!
 
