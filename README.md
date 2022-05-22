@@ -6,6 +6,10 @@ I wanted something fun to build in my downtime. I got the idea from watching Min
 
 _How very evilllll..._
 
+## 
+
+![Homepage](./docs/img/homepage.jpg)
+
 ## FAQ
 
 #### As a supervillain, why should I join?
