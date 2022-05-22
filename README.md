@@ -57,9 +57,8 @@ Builds use GitHub workflows.
 
 ## Dev Goals
 
-Build a frontend in react/nextjs/html \
-Build a backend in javascript and run it in node.js z
-Store users info in MongoDB \
+Write frontend/backend using Next.js \
+Store users data in MongoDB \
 Use KeyCloak for user management/signup \
 Store images and uploads in S3 \
 Let the feature creep roll.. 
