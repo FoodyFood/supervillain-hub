@@ -10,7 +10,6 @@ _How very evilllll..._
 
 ![Homepage](./docs/img/homepage.jpg)
 
-##
 
 ## FAQ
 
