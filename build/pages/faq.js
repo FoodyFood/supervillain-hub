@@ -12,7 +12,7 @@ import styles from '../styles/Common.module.css'
 export default function Faq() {
     return (
         <div className={styles.container}>            
-            <Title title="Account Settings" />
+            <Title title="FAQ" />
             <main className={styles.main}>  
                 <div className={styles.grid}>
                     <Bubble title="As a supervillain, why should I join?" description="This is an oportunity to flaut your evil doing and show off your evil acts of evilness to peers around the globe." />
