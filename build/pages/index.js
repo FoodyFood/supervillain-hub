@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.image}>
-        <Title title="The Premier Home of Supervillainy" />
+        <Title title="The Home of Supervillainy" />
       </div>
       <Main />
     </div>
@@ -24,6 +24,9 @@ export default function Home() {
 function Main() {
   return(
     <main className={styles.main}>
+      <p>This only social media account a supervillain needs.</p>
+      <br />
+      
       <p>This is where you can flaunt and taunt your fellow supervillains.</p>
       <br />
 
