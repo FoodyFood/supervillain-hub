@@ -1,8 +1,8 @@
 # Variables
 namespace = website
 
-all: build-supervillain push-supervillain deploy-supervillain
-update: build-supervillain push-supervillain restart-supervillain
+all: build-image push deploy-chart
+update: build-image push restart
 
 
 # Build
