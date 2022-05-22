@@ -1,0 +1,11 @@
+services:
+  supervillain:
+    build: .
+    container_name: supervillain
+    ports:
+      - "127.0.0.1:8080:8080"
+  test:
+    depends_on:
+      - supervillain
+    build: .
+    command: /bin/sh -c "/run-test.sh"
