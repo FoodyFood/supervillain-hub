@@ -1,4 +1,4 @@
-name: supervillain
+name: supervillain-frontend
 on:
   workflow_dispatch:
   push:
