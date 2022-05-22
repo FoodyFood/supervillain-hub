@@ -62,7 +62,7 @@ I'll try get FluxCD working for it at some point to save me restarting the pod e
 
 ## Contribution/License
 
-Feel free to fork, clone, or downright steal the code, we are supervillains after all. See MIT license. 
+Feel free to fork, clone, or downright steal the code, we are supervillains after all. Under [MIT License](./LICENSE). 
 
 I make mistakes, so if you spot anything that I should fix for any reason like security or whatnot, point it out, I'll be grateful of the chance to improve!
 
