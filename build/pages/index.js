@@ -24,12 +24,13 @@ export default function Home() {
 function Main() {
   return(
     <main className={styles.main}>
-      <p>The premier home of supervillainy</p>
+      <h1>The Premier Home of Supervillainy</h1>
       <br />
-      
-      <p>This is where you can flaunt and taunt your fellow supervillains.</p>
-      <p>Staff running low? Why not check out our Hench-4-hire section!</p>
 
+      <p>This is where you can flaunt and taunt your fellow supervillains.</p>
+      <br />
+
+      <p>Staff running low? Why not check out our Hench-4-hire section!</p>
       <br />
       <br />
 
