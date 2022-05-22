@@ -33,7 +33,7 @@ push:
 # Deploy
 deploy-chart:
 	-kubectl create namespace $(namespace)
-	helm upgrade supervillain ./deploy/ -n $(namespace) --create-namespace
+	helm install supervillain ./deploy/ -n $(namespace) --create-namespace
 
 
 # Restart
