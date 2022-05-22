@@ -55,6 +55,16 @@ Builds use GitHub workflows.
 [![supervillain](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml/badge.svg)](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml)
 
 
+## Dev Goals
+
+Build a frontend in react/nextjs/html \
+Build a backend in javascript and run it in node.js z
+Store users info in MongoDB \
+Use KeyCloak for user management/signup \
+Store images and uploads in S3 \
+Let the feature creep roll.. 
+
+
 ## Continuous Deployment
 
 I'll try get FluxCD working for it at some point to save me restarting the pod each time a new image builds.
