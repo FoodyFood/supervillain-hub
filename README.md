@@ -15,7 +15,7 @@ _How very evilllll.. muhaha.._
 ## Contents
 
 Website is React.js/HTML \
-Server is Extress.js \
+Server is Express.js \
 Container is Node.js \
 Deployment is via Helm Chart \
 Infra is a Linode Kubernetes clsuter 
