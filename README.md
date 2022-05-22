@@ -4,7 +4,7 @@
 
 I wanted something fun to build in my downtime. I got the idea from watching Minions to make a hub for all us Supervillains! 
 
-_How very evilllll.. muhaha.._
+_How very evilllll.._
 
 
 ## URL 
