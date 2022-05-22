@@ -8,4 +8,4 @@ services:
     depends_on:
       - supervillain
     build: .
-    command: /bin/sh -c "/run-test.sh"
+    command: /bin/sh -c "chmod +x /run-test.sh; /run-test.sh"
