@@ -6,6 +6,28 @@ I wanted something fun to build in my downtime. I got the idea from watching Min
 
 _How very evilllll..._
 
+## FAQ
+
+##### As a supervillain, why should I join?
+
+This is an oportunity to flaut your evil doing and show off your evil acts of evilness to peers around the globe.
+
+##### How Do I join?
+
+You must be invited by a fellow supervillain, or use the sign up form.
+
+##### What benifits are there?
+
+As part of the guild you will get access to our evil newsletter. And access to our evil media empire and World Domaination Platform as a Service 'WD-PaaS'.
+
+##### What is a 'Pro Tier' supervillain and how do I become one?
+
+To become a pro tier supervillain you must help out with building the platform, all coders and all levels of coders are welcome.
+
+##### Should I use my real name or details on the platform?
+
+No of course not, feel free to use your GitHub name as your supervilain alias.
+
 
 ## URL 
 
