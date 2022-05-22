@@ -53,13 +53,13 @@ Let the feature creep roll..
 
 ## CI/CD
 
-#### Build
+### Build
 
 Builds use GitHub workflows.
 
 [![supervillain](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml/badge.svg)](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml)
 
-#### Deployment
+### Deployment
 
 Will try get FluxCD working for it at some point to save me restarting the pod manually each time a new image is built.
 
