@@ -20,7 +20,10 @@ export default function Navbar() {
             <div className="w-9/12 flex justify-end items-center">
                 <div className="md:flex">
                     <NavLink to="/account">
-                        Account
+                        Sign Up
+                    </NavLink>
+                    <NavLink to="/account">
+                        Log In
                     </NavLink>
                 </div>
             </div>
