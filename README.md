@@ -5,7 +5,7 @@
 
 I wanted something fun to build in my downtime. I got the idea from watching Minions to make a hub for all us Supervillains! 
 
-_How very evilllll..._
+_How very evil..._
 
 Join us: [Supervillain Hub](https://supervillain.cloud/)
 
@@ -39,23 +39,7 @@ No of course not, feel free to use your GitHub name as your supervilain alias.
 
 ## URL
 
-Feel free to check out the currently not yet ready site, plenty of work to be done clearly.
-
 [Supervillain Hub](https://supervillain.cloud/)
-
-
-## Currently
-
-Website is html \
-Server is Express.js \
-Container is Node.js \
-Deployment is via Helm Chart \
-Infra is a Linode Kubernetes clsuter 
-
-
-## Build Status
-
-[![supervillain](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml/badge.svg)](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml)
 
 
 ## Dev Goals
@@ -70,6 +54,12 @@ Let the feature creep roll..
 ## CI/CD
 
 Builds use GitHub workflows.
+
+#### Build
+
+[![supervillain](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml/badge.svg)](https://github.com/FoodyFood/supervillain-hub/actions/workflows/supervillain.yaml)
+
+#### Deployment
 
 Will try get FluxCD working for it at some point to save me restarting the pod manually each time a new image is built.
 
