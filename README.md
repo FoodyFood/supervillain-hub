@@ -7,7 +7,7 @@ I wanted something fun to build in my downtime. I got the idea from watching Min
 
 _How very evil..._
 
-Join us: [Supervillain Hub](https://supervillain.cloud/)
+Join us (CLUSTER IS DOWN TO SAVE SOME MONEY): [Supervillain Hub](https://supervillain.cloud/)
 
 
 ## 
